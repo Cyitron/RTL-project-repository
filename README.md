@@ -2,13 +2,12 @@
 
 A portfolio repository of **RTL designs**, from the most basic (multiplexers, adders) to the most complex (ALU, **MIPS** and **RISC-V** microprocessors), each implemented in **Verilog**, **SystemVerilog** and **VHDL**.
 
-## 📌 How to use this checklist
+## How to use this checklist
 
-- ⬜ = to do  |  ✅ = done (RTL + working testbench)  |  ➖ = not applicable to that language
-- When you finish an item, replace `⬜` with `✅` in the corresponding language column.
+- ⬜ = to do  | 🟨 = working | ✅ = done (RTL + working testbench)  |  ➖ = not applicable to that language
 - An item is only marked as done when it has **RTL + a testbench with a passing simulation**.
 
-## 📁 Suggested structure
+## Structure
 
 ```
 rtl-portfolio/
@@ -32,13 +31,13 @@ rtl-portfolio/
 
 > in each project README, include a short description, a block diagram and a waveform screenshot (GTKWave/ModelSim).
 
-## 🛠️ Tools
+## Tools
 
 Simulation: Icarus Verilog, Verilator, GHDL, ModelSim/Questa, Vivado Simulator • Waveforms: GTKWave • Synthesis (optional): Yosys, Vivado, Quartus
 
 ---
 
-## 📊 Overall progress
+## Overall progress
 
 | Language | Done | Total |
 |---|:---:|:---:|
