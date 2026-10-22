@@ -29,7 +29,7 @@ rtl-portfolio/
 └── README.md
 ```
 
-> Dica: coloque em cada README de projeto uma descrição, o diagrama de blocos e um print da forma de onda (GTKWave/ModelSim).
+* em cada README de projeto uma descrição, o diagrama de blocos e um print da forma de onda (GTKWave/ModelSim).
 
 ## 🛠️ Ferramentas
 
@@ -313,7 +313,7 @@ _Os grandes projetos do portfólio_
 
 ---
 
-## 🗺️ Roadmap sugerido
+## 🗺️ Roadmap
 
 1. Partes 1 e 2 (fundamentos)
 2. Parte 5 e 6 (sequenciais e aritmética)
