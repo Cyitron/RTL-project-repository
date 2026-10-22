@@ -1,13 +1,14 @@
 # 🔧 RTL Portfolio — Verilog • SystemVerilog • VHDL
 
-Repositório de portfólio com **projetos RTL** do nível mais básico (multiplexadores, somadores) até o mais complexo (ULA, microprocessadores **MIPS** e **RISC-V**), implementados em **Verilog**, **SystemVerilog** e **VHDL**.
+A portfolio repository of **RTL designs**, from the most basic (multiplexers, adders) to the most complex (ALU, **MIPS** and **RISC-V** microprocessors), each implemented in **Verilog**, **SystemVerilog** and **VHDL**.
 
-## 📌 Como usar este checklist
+## 📌 How to use this checklist
 
-- ⬜ = pendente  | 🟨 = em andamento | ✅ = concluído (RTL + testbench funcionando)  |  ➖ = não se aplica à linguagem
-- Um item só é marcado como concluído quando possui **RTL + testbench com simulação passando**.
+- ⬜ = to do  |  ✅ = done (RTL + working testbench)  |  ➖ = not applicable to that language
+- When you finish an item, replace `⬜` with `✅` in the corresponding language column.
+- An item is only marked as done when it has **RTL + a testbench with a passing simulation**.
 
-## 📁 Estrutura sugerida
+## 📁 Suggested structure
 
 ```
 rtl-portfolio/
@@ -29,31 +30,29 @@ rtl-portfolio/
 └── README.md
 ```
 
-* em cada README de projeto uma descrição, o diagrama de blocos e um print da forma de onda (GTKWave/ModelSim).
+> in each project README, include a short description, a block diagram and a waveform screenshot (GTKWave/ModelSim).
 
-## 🛠️ Ferramentas
+## 🛠️ Tools
 
-Simulação: Icarus Verilog, Verilator, GHDL, ModelSim/Questa, Vivado Simulator • Ondas: GTKWave • Síntese (opcional): Yosys, Vivado, Quartus
+Simulation: Icarus Verilog, Verilator, GHDL, ModelSim/Questa, Vivado Simulator • Waveforms: GTKWave • Synthesis (optional): Yosys, Vivado, Quartus
 
 ---
 
-## 📊 Progresso geral
+## 📊 Overall progress
 
-| Linguagem | Concluídos | Total |
+| Language | Done | Total |
 |---|:---:|:---:|
 | Verilog | 0 | 149 |
 | SystemVerilog | 0 | 192 |
 | VHDL | 0 | 152 |
 
-> Atualize esta tabela manualmente conforme avançar.
-
 ---
 
-## Parte 1 — Verilog: Básico ao Intermediário
+## Part 1 — Verilog: Basic to Intermediate
 
-_Combinacional e aritmética básica (1–25)_
+_Combinational logic and basic arithmetic (1–25)_
 
-| # | RTL | Verilog | SystemVerilog | VHDL |
+| # | RTL Design | Verilog | SystemVerilog | VHDL |
 |:---:|---|:---:|:---:|:---:|
 | 1 | 2 to 1 Multiplexer | ⬜ | ⬜ | ⬜ |
 | 2 | 4 to 1 Multiplexer | ⬜ | ⬜ | ⬜ |
@@ -81,11 +80,11 @@ _Combinacional e aritmética básica (1–25)_
 | 24 | Decoder 3 to 8 | ⬜ | ⬜ | ⬜ |
 | 25 | BCD to 7 Segment Decoder | ⬜ | ⬜ | ⬜ |
 
-## Parte 2 — Verilog: Tópicos Avançados
+## Part 2 — Verilog: Advanced Topics
 
-_Registradores, contadores e FSMs (26–50)_
+_Registers, counters and FSMs (26–50)_
 
-| # | RTL | Verilog | SystemVerilog | VHDL |
+| # | RTL Design | Verilog | SystemVerilog | VHDL |
 |:---:|---|:---:|:---:|:---:|
 | 26 | 7 Segment Display Driver | ⬜ | ⬜ | ⬜ |
 | 27 | Universal Shift Register | ⬜ | ⬜ | ⬜ |
@@ -113,11 +112,11 @@ _Registradores, contadores e FSMs (26–50)_
 | 49 | Clock Divider | ⬜ | ⬜ | ⬜ |
 | 50 | Frequency Divider | ⬜ | ⬜ | ⬜ |
 
-## Parte 3 — SystemVerilog: Conceitos Centrais
+## Part 3 — SystemVerilog: Core Concepts
 
-_➖ = não se aplica à linguagem (conceito exclusivo do SystemVerilog) (51–75)_
+_➖ = not applicable to that language (SystemVerilog-only concept) (51–75)_
 
-| # | RTL | Verilog | SystemVerilog | VHDL |
+| # | RTL Design | Verilog | SystemVerilog | VHDL |
 |:---:|---|:---:|:---:|:---:|
 | 51 | Logic vs Reg | ➖ | ⬜ | ➖ |
 | 52 | 2 State vs 4 State Data Types | ➖ | ⬜ | ➖ |
@@ -145,11 +144,11 @@ _➖ = não se aplica à linguagem (conceito exclusivo do SystemVerilog) (51–7
 | 74 | Program Block Example | ➖ | ⬜ | ➖ |
 | 75 | Generate If Example | ⬜ | ⬜ | ⬜ |
 
-## Parte 4 — SystemVerilog: Verificação Avançada
+## Part 4 — SystemVerilog: Advanced Verification
 
-_Generate, randomização, OOP, assertions, cobertura e UVM (76–100)_
+_Generate, randomization, OOP, assertions, coverage and UVM (76–100)_
 
-| # | RTL | Verilog | SystemVerilog | VHDL |
+| # | RTL Design | Verilog | SystemVerilog | VHDL |
 |:---:|---|:---:|:---:|:---:|
 | 76 | Generate For Loop | ⬜ | ⬜ | ⬜ |
 | 77 | Nested Generate Example | ⬜ | ⬜ | ⬜ |
@@ -177,14 +176,14 @@ _Generate, randomização, OOP, assertions, cobertura e UVM (76–100)_
 | 99 | UVM Driver Example | ➖ | ⬜ | ➖ |
 | 100 | UVM Monitor Example | ➖ | ⬜ | ➖ |
 
-## Parte 5 — Extras: Elementos Básicos e Sequenciais
+## Part 5 — Extras: Basic and Sequential Elements
 
-_Complemento para deixar o portfólio mais completo (101+)_
+_Additional items to make the portfolio more complete (101+)_
 
-| # | RTL | Verilog | SystemVerilog | VHDL |
+| # | RTL Design | Verilog | SystemVerilog | VHDL |
 |:---:|---|:---:|:---:|:---:|
 | 101 | D Latch | ⬜ | ⬜ | ⬜ |
-| 102 | D Flip-Flop (reset síncrono vs assíncrono) | ⬜ | ⬜ | ⬜ |
+| 102 | D Flip-Flop (sync vs async reset) | ⬜ | ⬜ | ⬜ |
 | 103 | T Flip-Flop | ⬜ | ⬜ | ⬜ |
 | 104 | JK Flip-Flop | ⬜ | ⬜ | ⬜ |
 | 105 | SR Latch / Flip-Flop | ⬜ | ⬜ | ⬜ |
@@ -204,16 +203,16 @@ _Complemento para deixar o portfólio mais completo (101+)_
 | 119 | Reset Synchronizer | ⬜ | ⬜ | ⬜ |
 | 120 | Programmable Clock Divider | ⬜ | ⬜ | ⬜ |
 
-## Parte 6 — Extras: Aritmética
+## Part 6 — Extras: Arithmetic
 
-_Somadores, multiplicadores e divisores_
+_Adders, multipliers and dividers_
 
-| # | RTL | Verilog | SystemVerilog | VHDL |
+| # | RTL Design | Verilog | SystemVerilog | VHDL |
 |:---:|---|:---:|:---:|:---:|
 | 121 | Carry Select Adder | ⬜ | ⬜ | ⬜ |
 | 122 | Carry Save Adder | ⬜ | ⬜ | ⬜ |
 | 123 | Saturating Adder | ⬜ | ⬜ | ⬜ |
-| 124 | Adder/Subtractor (Add-Sub) | ⬜ | ⬜ | ⬜ |
+| 124 | Adder/Subtractor | ⬜ | ⬜ | ⬜ |
 | 125 | Array Multiplier | ⬜ | ⬜ | ⬜ |
 | 126 | Booth Multiplier | ⬜ | ⬜ | ⬜ |
 | 127 | Wallace Tree Multiplier | ⬜ | ⬜ | ⬜ |
@@ -226,11 +225,11 @@ _Somadores, multiplicadores e divisores_
 | 134 | Floating-Point Multiplier (IEEE 754) | ⬜ | ⬜ | ⬜ |
 | 135 | CORDIC | ⬜ | ⬜ | ⬜ |
 
-## Parte 7 — Extras: Memórias
+## Part 7 — Extras: Memories
 
-_ROM, RAM, FIFOs e cache_
+_ROM, RAM, FIFOs and cache_
 
-| # | RTL | Verilog | SystemVerilog | VHDL |
+| # | RTL Design | Verilog | SystemVerilog | VHDL |
 |:---:|---|:---:|:---:|:---:|
 | 136 | ROM | ⬜ | ⬜ | ⬜ |
 | 137 | Single-Port RAM | ⬜ | ⬜ | ⬜ |
@@ -244,17 +243,17 @@ _ROM, RAM, FIFOs e cache_
 | 145 | CAM (Content Addressable Memory) | ⬜ | ⬜ | ⬜ |
 | 146 | Cache Direct-Mapped | ⬜ | ⬜ | ⬜ |
 | 147 | Cache Set-Associative | ⬜ | ⬜ | ⬜ |
-| 148 | Memory Controller simples | ⬜ | ⬜ | ⬜ |
+| 148 | Simple Memory Controller | ⬜ | ⬜ | ⬜ |
 
-## Parte 8 — Extras: Interfaces e Protocolos
+## Part 8 — Extras: Interfaces and Protocols
 
-_Comunicação serial e barramentos_
+_Serial communication and buses_
 
-| # | RTL | Verilog | SystemVerilog | VHDL |
+| # | RTL Design | Verilog | SystemVerilog | VHDL |
 |:---:|---|:---:|:---:|:---:|
 | 149 | UART Transmitter | ⬜ | ⬜ | ⬜ |
 | 150 | UART Receiver | ⬜ | ⬜ | ⬜ |
-| 151 | UART Completa (TX + RX + FIFO) | ⬜ | ⬜ | ⬜ |
+| 151 | Full UART (TX + RX + FIFO) | ⬜ | ⬜ | ⬜ |
 | 152 | SPI Master | ⬜ | ⬜ | ⬜ |
 | 153 | SPI Slave | ⬜ | ⬜ | ⬜ |
 | 154 | I2C Master | ⬜ | ⬜ | ⬜ |
@@ -268,17 +267,17 @@ _Comunicação serial e barramentos_
 | 162 | PS/2 Keyboard Interface | ⬜ | ⬜ | ⬜ |
 | 163 | LCD 16x2 Controller | ⬜ | ⬜ | ⬜ |
 | 164 | Interrupt Controller | ⬜ | ⬜ | ⬜ |
-| 165 | DMA Controller simples | ⬜ | ⬜ | ⬜ |
+| 165 | Simple DMA Controller | ⬜ | ⬜ | ⬜ |
 | 166 | Bus Arbiter (Round-Robin) | ⬜ | ⬜ | ⬜ |
 
-## Parte 9 — Extras: Blocos de Processador
+## Part 9 — Extras: Processor Building Blocks
 
-_Peças para montar os processadores_
+_Pieces needed to build the processors_
 
-| # | RTL | Verilog | SystemVerilog | VHDL |
+| # | RTL Design | Verilog | SystemVerilog | VHDL |
 |:---:|---|:---:|:---:|:---:|
-| 167 | ALU 8 bits | ⬜ | ⬜ | ⬜ |
-| 168 | ALU 32 bits (soma, sub, AND, OR, XOR, SLT, shifts) | ⬜ | ⬜ | ⬜ |
+| 167 | 8-bit ALU | ⬜ | ⬜ | ⬜ |
+| 168 | 32-bit ALU (add, sub, AND, OR, XOR, SLT, shifts) | ⬜ | ⬜ | ⬜ |
 | 169 | ALU Control Unit | ⬜ | ⬜ | ⬜ |
 | 170 | Program Counter | ⬜ | ⬜ | ⬜ |
 | 171 | Instruction Memory | ⬜ | ⬜ | ⬜ |
@@ -292,35 +291,35 @@ _Peças para montar os processadores_
 | 179 | Branch Predictor (1 bit / 2 bits) | ⬜ | ⬜ | ⬜ |
 | 180 | CSR Register File | ⬜ | ⬜ | ⬜ |
 
-## Parte 10 — Projetos Finais: Processadores e SoC
+## Part 10 — Capstone Projects: Processors and SoC
 
-_Os grandes projetos do portfólio_
+_The major portfolio projects_
 
-| # | RTL | Verilog | SystemVerilog | VHDL |
+| # | RTL Design | Verilog | SystemVerilog | VHDL |
 |:---:|---|:---:|:---:|:---:|
-| 181 | Processador simples de 8 bits (acumulador) | ⬜ | ⬜ | ⬜ |
-| 182 | MIPS 32 bits — Single-Cycle | ⬜ | ⬜ | ⬜ |
-| 183 | MIPS 32 bits — Multi-Cycle | ⬜ | ⬜ | ⬜ |
-| 184 | MIPS 32 bits — Pipeline 5 estágios | ⬜ | ⬜ | ⬜ |
-| 185 | MIPS Pipeline com Hazard + Forwarding | ⬜ | ⬜ | ⬜ |
+| 181 | Simple 8-bit Accumulator Processor | ⬜ | ⬜ | ⬜ |
+| 182 | 32-bit MIPS — Single-Cycle | ⬜ | ⬜ | ⬜ |
+| 183 | 32-bit MIPS — Multi-Cycle | ⬜ | ⬜ | ⬜ |
+| 184 | 32-bit MIPS — 5-Stage Pipeline | ⬜ | ⬜ | ⬜ |
+| 185 | MIPS Pipeline with Hazard Detection + Forwarding | ⬜ | ⬜ | ⬜ |
 | 186 | RISC-V RV32I — Single-Cycle | ⬜ | ⬜ | ⬜ |
 | 187 | RISC-V RV32I — Multi-Cycle | ⬜ | ⬜ | ⬜ |
-| 188 | RISC-V RV32I — Pipeline 5 estágios | ⬜ | ⬜ | ⬜ |
-| 189 | RISC-V RV32I Pipeline com Hazard + Forwarding | ⬜ | ⬜ | ⬜ |
-| 190 | RISC-V RV32IM (extensão M: mul/div) | ⬜ | ⬜ | ⬜ |
-| 191 | RISC-V com CSR e Interrupções | ⬜ | ⬜ | ⬜ |
-| 192 | SoC simples (RISC-V + RAM + UART + GPIO via barramento) | ⬜ | ⬜ | ⬜ |
+| 188 | RISC-V RV32I — 5-Stage Pipeline | ⬜ | ⬜ | ⬜ |
+| 189 | RISC-V RV32I Pipeline with Hazard Detection + Forwarding | ⬜ | ⬜ | ⬜ |
+| 190 | RISC-V RV32IM (M extension: mul/div) | ⬜ | ⬜ | ⬜ |
+| 191 | RISC-V with CSRs and Interrupts | ⬜ | ⬜ | ⬜ |
+| 192 | Simple SoC (RISC-V + RAM + UART + GPIO over a bus) | ⬜ | ⬜ | ⬜ |
 
 ---
 
 ## 🗺️ Roadmap
 
-1. Partes 1 e 2 (fundamentos)
-2. Parte 5 e 6 (sequenciais e aritmética)
-3. Parte 7 e 9 (memórias e blocos de processador)
-4. Parte 10 (MIPS → RISC-V → SoC)
-5. Parte 3 e 4 (conceitos de SystemVerilog e verificação/UVM) em paralelo, para reforçar o lado de verificação
+1. Parts 1 and 2 (fundamentals)
+2. Parts 5 and 6 (sequential elements and arithmetic)
+3. Parts 7 and 9 (memories and processor building blocks)
+4. Part 10 (MIPS → RISC-V → SoC)
+5. Parts 3 and 4 (SystemVerilog concepts and verification/UVM) in parallel, to strengthen the verification side
 
-## 📄 Licença
+## 📄 License
 
 MIT
